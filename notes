@@ -2,7 +2,7 @@
 Things I would consider improving if I had more time:
 1. Introduce logging via AOP class for all controller/service classes
 2. Remove opencsv lib and implement csv reader internally
-
+3. Introduce pagination for the response for getAllPlayers (response too big)
 
 Things I needed more time to finish:
 1. Complete unit tests
