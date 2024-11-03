@@ -1,5 +1,8 @@
 # Getting Started
 
+To Run locally run:
+* `mvn spring-boot:run`
+
 To deploy follow the instructions:
 * Build Docker image: `docker build -t yourapp:latest .`
 * Run the Docker container: `docker run -p 8080:8080 yourapp:latest`
