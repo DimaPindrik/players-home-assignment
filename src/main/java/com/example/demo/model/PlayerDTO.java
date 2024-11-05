@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,6 +14,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class PlayerDTO {
 
+  @JsonProperty("playerId")
   private String id;
 
   private Integer birthYear;
@@ -36,7 +38,9 @@ public class PlayerDTO {
   private Integer weight;
   private Integer height;
 
+  @JsonProperty("bats")
   private String bats_;
+  @JsonProperty("throws")
   private String throws_;
 
   private LocalDate debut;
